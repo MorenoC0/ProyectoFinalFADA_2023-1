@@ -1,16 +1,14 @@
 import heapq
 
+"""
+Autores:<Carlos Fernando Padilla Mesa - 202059962
+        Cesar Antonio Rios Gonzales - 2059959
+        Ronan Moreno Castro - 201860286>
+Version: <1>
+"""
 
+#Esta clase se encarga de codificar un texto en base a un árbol de Huffman
 class HuffmanCoding:
-    """
-    Clase HuffmanCoding
-    Esta clase se encarga de codificar un texto en base a un árbol de Huffman
-    Autor: <Carlos Fernando Padilla Mesa - 202059962
-            Cesar Antonio Rios Gonzales - 2059959
-            Ronan Moreno Castro - 201860286>
-    Version: <1>
-    """
-
     def encode(self, root, s, huffman_code):
         """
         Codifica el texto.

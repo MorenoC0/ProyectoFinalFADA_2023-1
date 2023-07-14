@@ -1,16 +1,15 @@
+"""
+Autores:<Carlos Fernando Padilla Mesa - 202059962
+        Cesar Antonio Rios Gonzales - 2059959
+        Ronan Moreno Castro - 201860286>
+Version: <1>
+"""
+
 def isLeaf(root):
     return root.left is None and root.right is None
 
-
+#Esta clase se encarga de decodificar un texto en base a un árbol de Huffman
 class HuffmanDecoding:
-    """
-    Clase HuffmanDecoding
-    Esta clase se encarga de decodificar un texto en base a un árbol de Huffman
-    Autor: <Carlos Fernando Padilla Mesa - 202059962
-            Cesar Antonio Rios Gonzales - 2059959
-            Ronan Moreno Castro - 201860286>
-    Version: <1>
-    """
 
     def decode(self, root, index, s):
         """

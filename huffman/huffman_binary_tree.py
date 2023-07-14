@@ -1,11 +1,12 @@
-class HuffmanBinaryTree:
-    """
-     Clase que implementa un árbol binario de Huffman
-     Autor:<Carlos Fernando Padilla Mesa - 202059962
-            Cesar Antonio Rios Gonzales - 2059959
-            Ronan Moreno Castro - 201860286>
-     """
+"""
+Clase que implementa un árbol binario de Huffman
+Autores:<Carlos Fernando Padilla Mesa - 202059962
+        Cesar Antonio Rios Gonzales - 2059959
+        Ronan Moreno Castro - 201860286>
+"""
 
+#Clase que implementa un árbol binario de Huffman
+class HuffmanBinaryTree:
     def getNumberKey(self, root):
         """
         Retorna el valor de la llave,

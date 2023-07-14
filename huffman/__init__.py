@@ -2,11 +2,11 @@ from huffman_binary_tree import HuffmanBinaryTree
 from huffman_coding import HuffmanCoding, isLeaf
 from huffman_decoding import HuffmanDecoding
 
-'''
+"""
 Autores:<Carlos Fernando Padilla Mesa - 202059962
             Cesar Antonio Rios Gonzales - 2059959
             Ronan Moreno Castro - 201860286>
-'''
+"""
 
 if __name__ == '__main__':
     print('Codificacion de Huffman')
